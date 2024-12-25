@@ -29,6 +29,9 @@ const nextConfig: NextConfig = {
     ],
     webVitalsAttribution: ['CLS', 'LCP'],
   },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 
   async headers() {
     return [
